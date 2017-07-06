@@ -2,7 +2,7 @@ from servo import Servo as Servo
 import time
 import RPi.GPIO as IO
 
-def __init__(self):
+
     IO.setmode(BOARD)
     IO.setwarnings(False)
     IO.setup(35, IO.OUT)
@@ -13,3 +13,4 @@ def __init__(self):
         time.sleep(5)
         self.servo.change_position(180)
         time.sleep(5)
+        
