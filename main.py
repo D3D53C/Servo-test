@@ -1,6 +1,6 @@
 from servo import Servo as Servo
 import time
-import Rpi.GPIO as IO
+import RPi.GPIO as IO
 
 def __init__(self):
     IO.setmode(BOARD)
